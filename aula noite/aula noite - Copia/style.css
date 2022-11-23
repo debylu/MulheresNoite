@@ -1,0 +1,39 @@
+.servicos img{
+    height:300px;
+    width:100%;
+}
+
+.carrossel img{
+    height:600px;
+    width:100%;
+    
+}
+
+                                  
+.sociais{
+    padding:20px;
+}
+
+.sociais img{
+    width:50px;
+    height:50px;
+}
+
+.footer{
+    background-color:#ccc;
+    padding:20px;
+}
+
+.menu2 a{
+    color:#000;
+}
+
+.menu{
+    background-color: #ccc;
+    height:100%;
+}
+
+.menu a{
+    color: #000;
+
+}
