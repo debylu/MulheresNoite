@@ -6,15 +6,19 @@
   <div class="container-fluid">    
 
     <div class="row servicos">
-      <div class="col-md-6">
-          <img src="imagens/oficina2.jpg" class="rounded-circle">
+      <div class="col-md-7">
+          <img src="imagens/oficina2.jpg" >
       </div>
 
-      <div class="col-md-6 text-center">
+      <div class="col-md-5 text-center">
           <h3>Nossa História</h3>
-          <p>Iniciamos nossas atividades em 2002, com uma estrutura simples em uma área 
-            residencial. Sempre prezando pela boa convivência e a vontade de 
-            prestar um serviço de excelência à nossa comunidade.
+          <p>Desde 2005 no mercado de reparação automotiva, executamos serviços de manutenção corretiva e preventiva para veículos e utilitários de todas as marcas, nacionais e importados.
+
+A A.K. Auto Center conta com uma equipe de profissionais altamente qualificados, certificados e atualizados, e investe constantemente na atualização de seus equipamentos.
+
+Prezamos pela qualidade, agilidade, organização e atendimento personalizado. Venha conhecer a A.K. Auto Center !
+
+Funcionamento de Segunda a Sexta feira, das 8h às 18h.</p>
 
       </div>
 
@@ -29,7 +33,7 @@
     <div class="row servicos text-center">     
       <div class="col-md-3"></div>  
       <div class="col-md-6">
-          <img src="imagens/oficina3.jpg" class="rounded-circle">
+          <img src="imagens/oficina3.jpg">
       </div>
       <div class="col-md-3"></div>  
     </div>
