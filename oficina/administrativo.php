@@ -1,17 +1,33 @@
+
 <?php
     require_once 'head.php';  
 	
-	include_once 'conexao.php';
+    include_once 'conexao.php';
 
-	session_start();
-	ob_start();
+    session_start();
+    ob_start();
+
 
   ?>
 
+  <h1 class="text-center">Área Administrativa</h1>
+
   <?php
+  
+    echo "Bem Vindo(a)" . $_SESSION['nome'];
 
-	echo "senha".password_hash(123, PASSWORD_DEFAULT);
 
+
+
+
+
+    
+    require_once 'head.php';  
+	
+	include_once 'conexao.php';
+  ?>
+
+  <?php
 
 		$dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);
 
@@ -33,24 +49,17 @@
 				var_dump($linha);
 
 				if(password_verify($dados['senha'], $linha['senha'])){
-						$_SESSION['nome']=$linha['nome'];
 					header("Location: administrativo.php");
 				}
 
-				else{
-					$_SESSION['msg'] = "Usuário ou Senha não encontrado"
-				}
+
 			} 
 
-			else{
-				$_SESSION['msg'] = "Usuário ou Senha não encontrado"
+
 
 		}
 
-		if(isset($_SESSION['msg']))
-			echo $_SESSION['msg'];
-			unset$_SESSION['msg']);
-	}	
+
 		
 
 	?>

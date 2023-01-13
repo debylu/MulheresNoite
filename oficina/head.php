@@ -11,7 +11,7 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="peca.css">
+  <link rel="stylesheet" href="pecas.css">
   <link rel="stylesheet" href="login.css">
 
   <title>Oficina Conserta Tudo</title>
