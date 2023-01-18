@@ -1,19 +1,6 @@
 <?php
 require_once 'head.php';
-session_start();
-	ob_start();
-
-//include_once 'conexao.php';
 ?>
-
-<?php
-echo "Bem vindo(a)" . $_SESSION['nome'];
-
-?>
-
-<a href="sair.php"><button type="submit"> Sair</button></a>
-
-
 
 <div class="container-fluid">
         <div class="row">
@@ -60,7 +47,7 @@ echo "Bem vindo(a)" . $_SESSION['nome'];
                           <a class="nav-link" href="faleconosco.php"></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="loginadm.php">Login</a>
+                          <a class="nav-link" href="loginadm.php">Logoff</a>
                         </li>
                      
                       </ul>
@@ -74,7 +61,7 @@ echo "Bem vindo(a)" . $_SESSION['nome'];
             
         </div>
     </div>
-    <h1 class="text-center"> Área Administrativa</h1>
+
 
     <?php
           require_once 'footer.php';
